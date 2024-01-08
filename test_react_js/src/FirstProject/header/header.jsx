@@ -1,11 +1,13 @@
 import React from 'react'
+import Styles, { HeaderContainer } from '../Style.js'
 
 
-export  function header() {
+
+export default  function Header() {
   return (
-    
-    <header>
-            <ul>
+    <HeaderContainer>
+      
+<ul className='Header'>
                 <li>HOME</li>
                 <li>ABOUT</li>
                 <li>SERVICE</li>
@@ -13,6 +15,11 @@ export  function header() {
                 <li>PAGE</li>
                 <li>CONTACT</li>
             </ul>
-    </header>
+
+
+    </HeaderContainer>
+    
+  
   ) 
+
 }
