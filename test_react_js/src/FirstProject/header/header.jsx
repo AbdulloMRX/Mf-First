@@ -7,7 +7,7 @@ export default  function Header() {
   return (
     <HeaderContainer>
       
-<ul className='Header'>
+<ul className='HEADER'>
                 <li>HOME</li>
                 <li>ABOUT</li>
                 <li>SERVICE</li>
